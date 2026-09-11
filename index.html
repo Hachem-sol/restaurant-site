@@ -1,69 +1,200 @@
 <!DOCTYPE html>
 <html>
-    <head>
+    <head><meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Restaurant AlKhayr</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
         <h1>Restaurant AlKhayr</h1>
-        <nav>
-            <a href="#">Accueil</a>
-            <a href="#menu">Menu</a>
-            <a href="#apropos">À propos</a>
-            <a href="#contact">Contact</a>
-        </nav>
+            <nav>
+                <a href="#">Accueil</a>
+                <a href="#menu">Menu</a>
+                <a href="#apropos">À propos</a>
+                <a href="#contact">Contact</a>
+            </nav>
         </header>
         <div class="restaurant">
-        
-        <p>Bienvenu dans votre réstaurant préféré</p>
-        <p id="apropos">Notre restaurant, situé en front de mer, célèbre les produits de la pêche locale depuis plus de 15 ans. Chaque matin, notre poissonnier sélectionne les meilleures pièces du marché. </p>
-        <img src="images/poisson.jpg" alt="Poisson grillé">
-        <h2 id="menu">Notre Menu</h2>
-        <section class="specialites">
-        <h2>Nos spécialités</h2>
-            <div class="cards">
-                <div class="card">
-                    <h3>Poisson grillé</h3>
-                    <p>Poisson frais grillé avec des légumes et des épices.</p>
-                    <strong>85 DH</strong>
-                </div>
-                <div class="card">
-                    <h3>Tajine de poisson</h3>
-                    <p>Un délicieux tajine préparé avec des produits frais.</p>
-                    <strong>90 DH</strong>
-                </div>
-                <div class="card">
-                    <h3>Fruits de mer</h3>
-                    <p>Un assortiment de fruits de mer soigneusement sélectionnés.</p>
-                    <strong>120 DH</strong>
-                </div>
+
+        <section class="hero">
+
+        <div class="hero-content">
+            <p class="hero-subtitle">Bienvenue chez nous</p>
+
+            <h2>Les saveurs de la mer, directement dans votre assiette</h2>
+
+            <p>
+                Découvrez une cuisine authentique préparée avec
+                des produits frais issus de la pêche locale.
+            </p>
+
+            <div class="hero-buttons">
+                <a class="btn" href="#menu">Voir le menu</a>
+                <a class="btn btn-secondary" href="#contact">Nous contacter</a>
             </div>
-        </section>
-        <ul class="menu">
-            <li>Poisson grillé</li>
-            <li>Fruits de mer</li>
-            <li>Salade de la mer</li>
-            <li>Tajine de poisson</li>
-        </ul>
-        <a class="btn" href="https://www.google.com">Voir notre emplacement</a>
-        <h2 id="contact">Contactez-nous</h2>
-        <p>Adresse : Avenue de la Mer, Casablanca</p>
-        <p>Téléphone : <a href="tel:+212612345678">06 12 34 56 78</a></p>
-        <p>Email : <a href="mailto:contact@ledelice.ma">contact@ledelice.ma</a></p>
+        </div>
+
+        <div class="hero-image">
+            <img src="images/poisson.jpg" alt="Poisson grillé">
+        </div>
+
+    </section>
+
+    <section id="apropos" class="apropos">
+        <h2>À propos de notre restaurant</h2>
+
+        <p>
+            Notre restaurant, situé en front de mer, célèbre les produits
+            de la pêche locale depuis plus de 15 ans. Chaque matin,
+            notre poissonnier sélectionne les meilleures pièces du marché.
+        </p>
+    </section>
+        <section id="menu" class="menu-section">
+
+    <h2>Notre Menu</h2>
+
+    <p class="menu-intro">
+        Découvrez notre sélection de spécialités préparées
+        avec des produits frais et soigneusement sélectionnés.
+    </p>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Poisson grillé</h3>
+            <p>
+                Poisson frais grillé avec des légumes
+                et des épices.
+            </p>
+            <strong>85 DH</strong>
+        </div>
+
+        <div class="card">
+            <h3>Salade de la mer</h3>
+            <p>
+                Une salade fraîche composée de produits
+                de la mer et de légumes.
+            </p>
+            <strong>50 DH</strong>
+        </div>
+
+        <div class="card">
+            <h3>Tajine de poisson</h3>
+            <p>
+                Un délicieux tajine préparé avec des
+                produits frais et des épices.
+            </p>
+            <strong>90 DH</strong>
+        </div>
+
+        <div class="card">
+            <h3>Fruits de mer</h3>
+            <p>
+                Un assortiment de fruits de mer
+                soigneusement sélectionnés.
+            </p>
+            <strong>120 DH</strong>
+        </div>
+
+    </div>
+
+</section>
+        
+
+        <section id="contact" class="contact-section">
+
+```
+<h2>Contactez-nous</h2>
+
+<p class="contact-intro">
+    Une question, une réservation ou simplement envie de découvrir
+    notre cuisine ? N'hésitez pas à nous contacter.
+</p>
+
+<div class="contact-container">
+
+    <div class="contact-info">
+
+        <div class="contact-card">
+            <h3>📍 Adresse</h3>
+            <p>Avenue de la Mer, Casablanca</p>
+        </div>
+
+        <div class="contact-card">
+            <h3>📞 Téléphone</h3>
+            <p>
+                <a href="tel:+212612345678">
+                    06 12 34 56 78
+                </a>
+            </p>
+        </div>
+
+        <div class="contact-card">
+            <h3>✉️ Email</h3>
+            <p>
+                <a href="mailto:contact@alkhayr.ma">
+                    contact@alkhayr.ma
+                </a>
+            </p>
+        </div>
+
+        <a
+            class="btn"
+            href="https://www.google.com/maps/search/?api=1&query=Avenue+de+la+Mer+Casablanca"
+            target="_blank"
+        >
+            Voir notre emplacement
+        </a>
+
+    </div>
+
+    <div class="contact-form">
+
         <h3>Envoyez-nous un message</h3>
+
         <form>
+
             <label for="nom">Nom :</label>
-            <input type="text" id="nom" name="nom" placeholder="Votre nom">
+            <input
+                type="text"
+                id="nom"
+                name="nom"
+                placeholder="Votre nom"
+                required
+            >
+
             <label for="email">Email :</label>
-            <input type="email" id="email" name="email" placeholder="Votre email">
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Votre email"
+                required
+            >
+
             <label for="message">Message :</label>
-            <textarea id="message" name="message" placeholder="Votre message"></textarea>
-            <button type="submit">Envoyer</button>
+            <textarea
+                id="message"
+                name="message"
+                placeholder="Votre message"
+                required
+            ></textarea>
+
+            <button type="submit">Envoyer le message</button>
+
         </form>
+
+    </div>
+
+</div>
+```
+
+</section>
+
         </div>
         <footer>
-            <p>© 2026 Restaurant Le Délice - Tous droits réservés.</p>
+            <p>© 2026 Restaurant alkhayr - Tous droits réservés.</p>
         </footer>
         <script src="script.js"></script>
     </body>
